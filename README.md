@@ -1,4 +1,4 @@
-# Revolut Backend Test
+# Money Transfer API
 By [Jihyun Um](ashleyum20@gmail.com)
 
 
