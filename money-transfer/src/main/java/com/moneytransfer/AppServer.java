@@ -1,4 +1,4 @@
-package main.java.com.revolut.moneytransfer;
+package main.java.com.moneytransfer;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -6,8 +6,8 @@ import java.net.InetSocketAddress;
 import com.sun.net.httpserver.HttpContext;
 import com.sun.net.httpserver.HttpServer;
 
-import main.java.com.revolut.moneytransfer.api.RequestHandler;
-import main.java.com.revolut.moneytransfer.service.AccountService;
+import main.java.com.moneytransfer.api.RequestHandler;
+import main.java.com.moneytransfer.service.AccountService;
 
 public class AppServer {
 

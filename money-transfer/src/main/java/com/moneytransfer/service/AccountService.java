@@ -1,16 +1,16 @@
-package main.java.com.revolut.moneytransfer.service;
+package main.java.com.moneytransfer.service;
 
 import java.math.BigDecimal;
 import java.util.Arrays;
 import java.util.List;
 
-import main.java.com.revolut.moneytransfer.exception.AccountNotFoundException;
-import main.java.com.revolut.moneytransfer.exception.InsufficientBalanceException;
-import main.java.com.revolut.moneytransfer.exception.InvalidReceiverException;
-import main.java.com.revolut.moneytransfer.exception.UnsupportedCurrencyException;
-import main.java.com.revolut.moneytransfer.model.Account;
-import main.java.com.revolut.moneytransfer.model.Amount;
-import main.java.com.revolut.moneytransfer.repository.AccountRepository;
+import main.java.com.moneytransfer.exception.AccountNotFoundException;
+import main.java.com.moneytransfer.exception.InsufficientBalanceException;
+import main.java.com.moneytransfer.exception.InvalidReceiverException;
+import main.java.com.moneytransfer.exception.UnsupportedCurrencyException;
+import main.java.com.moneytransfer.model.Account;
+import main.java.com.moneytransfer.model.Amount;
+import main.java.com.moneytransfer.repository.AccountRepository;
 
 public class AccountService {
 	

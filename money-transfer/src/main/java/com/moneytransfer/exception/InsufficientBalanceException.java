@@ -1,4 +1,4 @@
-package main.java.com.revolut.moneytransfer.exception;
+package main.java.com.moneytransfer.exception;
 
 public class InsufficientBalanceException extends Exception {
 

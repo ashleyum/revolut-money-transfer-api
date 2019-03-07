@@ -1,4 +1,4 @@
-package main.java.com.revolut.moneytransfer.api;
+package main.java.com.moneytransfer.api;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -11,14 +11,14 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 
-import main.java.com.revolut.moneytransfer.exception.AccountNotFoundException;
-import main.java.com.revolut.moneytransfer.exception.IncorrectInputException;
-import main.java.com.revolut.moneytransfer.exception.InsufficientBalanceException;
-import main.java.com.revolut.moneytransfer.exception.InvalidReceiverException;
-import main.java.com.revolut.moneytransfer.exception.UnsupportedCurrencyException;
-import main.java.com.revolut.moneytransfer.model.Account;
-import main.java.com.revolut.moneytransfer.model.Amount;
-import main.java.com.revolut.moneytransfer.service.AccountService;
+import main.java.com.moneytransfer.exception.AccountNotFoundException;
+import main.java.com.moneytransfer.exception.IncorrectInputException;
+import main.java.com.moneytransfer.exception.InsufficientBalanceException;
+import main.java.com.moneytransfer.exception.InvalidReceiverException;
+import main.java.com.moneytransfer.exception.UnsupportedCurrencyException;
+import main.java.com.moneytransfer.model.Account;
+import main.java.com.moneytransfer.model.Amount;
+import main.java.com.moneytransfer.service.AccountService;
 
 public class RequestHandler implements HttpHandler {
 	

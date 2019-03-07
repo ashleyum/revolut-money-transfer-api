@@ -1,4 +1,4 @@
-package test.java.com.revolut.moneytransfer.api;
+package test.java.com.moneytransfer.api;
 
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.verify;
@@ -18,10 +18,10 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import com.sun.net.httpserver.HttpExchange;
 
-import main.java.com.revolut.moneytransfer.api.RequestHandler;
-import main.java.com.revolut.moneytransfer.model.Account;
-import main.java.com.revolut.moneytransfer.model.Amount;
-import main.java.com.revolut.moneytransfer.service.AccountService;
+import main.java.com.moneytransfer.api.RequestHandler;
+import main.java.com.moneytransfer.model.Account;
+import main.java.com.moneytransfer.model.Amount;
+import main.java.com.moneytransfer.service.AccountService;
 
 @RunWith(MockitoJUnitRunner.class)
 public class RequestHandlerTest {

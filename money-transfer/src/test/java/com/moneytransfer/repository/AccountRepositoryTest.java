@@ -1,4 +1,4 @@
-package test.java.com.revolut.moneytransfer.repository;
+package test.java.com.moneytransfer.repository;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
@@ -8,10 +8,10 @@ import java.math.BigDecimal;
 import org.junit.Before;
 import org.junit.Test;
 
-import main.java.com.revolut.moneytransfer.exception.AccountNotFoundException;
-import main.java.com.revolut.moneytransfer.model.Account;
-import main.java.com.revolut.moneytransfer.model.Amount;
-import main.java.com.revolut.moneytransfer.repository.AccountRepository;
+import main.java.com.moneytransfer.exception.AccountNotFoundException;
+import main.java.com.moneytransfer.model.Account;
+import main.java.com.moneytransfer.model.Amount;
+import main.java.com.moneytransfer.repository.AccountRepository;
 
 public class AccountRepositoryTest {
 

@@ -1,10 +1,10 @@
-package main.java.com.revolut.moneytransfer.repository;
+package main.java.com.moneytransfer.repository;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import main.java.com.revolut.moneytransfer.exception.AccountNotFoundException;
-import main.java.com.revolut.moneytransfer.model.Account;
+import main.java.com.moneytransfer.exception.AccountNotFoundException;
+import main.java.com.moneytransfer.model.Account;
 
 public class AccountRepository {
 
